@@ -29,6 +29,10 @@
 <body>
 	<%=user%> <a href="admin.jsp?logout=true">Log out</a> | <a href="edit_password.jsp?redirect_url=admin.jsp">Change password</a>
 	<fieldset>
+		<legend>Floorplans</legend>
+		<a href="floorplans.jsp">Floorplans</a>
+	</fieldset>
+	<fieldset>
 		<legend>Import Attachment zip file</legend>
 		<form method="post" action="api/admin?action=import&type=attachment.zip"
 			enctype="multipart/form-data">
